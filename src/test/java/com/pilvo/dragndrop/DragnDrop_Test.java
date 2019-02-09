@@ -1,5 +1,4 @@
 package com.pilvo.dragndrop;
-import java.time.Duration;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
@@ -16,6 +15,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 /*
 import org.testng.annotations.AfterSuite;
@@ -23,29 +23,17 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
  */
 
-public class DragnDrop_TC001 {
+public class DragnDrop_Test {
 	WebDriver driver;
 	
-	public static void main (String args[]) 
-	{
-		try 
-		{
-			DragnDrop_TC001 t = new DragnDrop_TC001();
-			t.check_action();
-		}
-		catch (Exception e) 
-		{
-			e.getMessage();
-		}
-	}
-	
+	/**
+	 * @throws InterruptedException
+	 */
 	@Test
 	public void check_action() throws InterruptedException{
 		
 		try 
 		{
-			
-
 			
 			System.setProperty("webdriver.chrome.driver","chromedriver");
 			Map<String, Object> prefs = new HashMap<String, Object>();
@@ -178,7 +166,7 @@ public class DragnDrop_TC001 {
 	}
 
 
-
+	@AfterClass
 	public void teardown()
 	{
 		driver.quit();

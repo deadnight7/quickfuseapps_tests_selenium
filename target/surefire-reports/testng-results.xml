@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="47612" started-at="2019-02-09T10:33:50Z" finished-at="2019-02-09T10:34:38Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="47612" started-at="2019-02-09T10:33:50Z" finished-at="2019-02-09T10:34:38Z">
+      <class name="com.pilvo.dragndrop.DragnDrop_Test">
+        <test-method status="PASS" signature="check_action()[pri:0, instance:com.pilvo.dragndrop.DragnDrop_Test@880ec60]" name="check_action" duration-ms="47483" started-at="2019-02-09T16:03:50Z" finished-at="2019-02-09T16:04:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_action -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.pilvo.dragndrop.DragnDrop_Test@880ec60]" name="teardown" is-config="true" duration-ms="116" started-at="2019-02-09T16:04:38Z" finished-at="2019-02-09T16:04:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.pilvo.dragndrop.DragnDrop_Test -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

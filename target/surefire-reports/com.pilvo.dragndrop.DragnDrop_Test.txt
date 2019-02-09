@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.pilvo.dragndrop.DragnDrop_Test
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 48.022 sec - in com.pilvo.dragndrop.DragnDrop_Test
