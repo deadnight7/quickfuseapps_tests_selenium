@@ -1,4 +1,4 @@
-# QuickFuseApps tests in selenium
+# QuickFuseApps tests in Selenium WebDriver
 Automated tests in Selenium WebDriver for performing Drag and Drop operations on http://quickfuseapps.com/
 
 
